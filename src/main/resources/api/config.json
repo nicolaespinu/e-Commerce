@@ -1,0 +1,16 @@
+{
+  "library": "spring-mvc",
+  "dateLibrary": "java8",
+  "hideGenerationTimestamp": true,
+  "modelPackage": "com.spinic.eshop.model",
+  "apiPackage": "com.spinic.eshop",
+  "invokerPackage": "com.spinic.eshop",
+  "serializableModel": true,
+  "useTags": true,
+  "useGzipFeature" : true,
+  "hateoas": true,
+  "withXml": true,
+  "importMappings": {
+    "Link": "org.springframework.hateoas.Link"
+  }
+}
